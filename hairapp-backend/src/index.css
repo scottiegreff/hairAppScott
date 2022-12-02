@@ -1,0 +1,318 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+
+
+.blue-stripe {
+  margin: auto;
+  width: 35rem;
+  height: 100rem;
+  background-color: rgb(6, 41, 147);
+}
+.navbar-flexbox-container {
+  width: 80%;
+  margin: 6.5rem auto 3rem auto;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+
+}
+.home-nav-title {
+  font-family: 'Raleway Dots', cursive;
+  margin: auto;
+  color: #000;
+  text-decoration: none;
+  font-size: x-large;
+}
+.home-nav-title:visited {
+  color: #000;
+}
+.nav-title {
+  font-family: 'Raleway Dots', cursive;
+  font-weight: 500;
+  margin: auto;
+  color: #000;
+  text-decoration: none;
+  font-size: x-large;
+}
+.hair-test-btn {
+  margin: auto;
+  border-radius: 3rem;
+  padding: 1rem 4rem 1rem 4rem;
+  background-color: #fff;
+}
+.hair-test-btn:active {
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.test-nav-title:visited {
+  color: #000;
+}
+.about-nav-title {
+  font-family: 'Raleway Dots', cursive;
+  margin: auto;
+  color: #000;
+  font-size: x-large;
+  text-decoration: none;
+}
+.about-nav-title:visited {
+  color: #000;
+}
+.about-page-h1 {
+  margin-top: 8rem;
+  margin-bottom: 3.25rem;
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 100;
+}
+.about-page-p {
+  text-align: center;
+  margin-top: 5rem;
+}
+.about-hairapp-title {
+  text-align: center;
+  font-size: 4.25rem;
+}
+h1.app-title {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 8rem;
+  position: relative;
+  animation-name: title;
+  animation-duration: 1.25s;
+  animation-iteration-count: 1;
+}
+
+@keyframes title {
+  0% {
+    top: -50px;
+    color: rgba(0, 0, 0, 0);
+  }
+  50% {
+    color: rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    top: 0rem;
+    color: rgba(0, 0, 0, 0.75);
+  }
+}
+
+h1.test-app-title {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 2.5rem;
+  font-size: 4.5rem;
+}
+p.hair-test-btn-title {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+div.hair-test-btn-container {
+  margin: auto;
+  text-align: center;
+}
+
+.page-title {
+  font-family: 'Raleway Dots', cursive;
+  text-align: center;
+  margin-top: 4.5%;
+  font-weight: 600;
+  font-size: xx-large;
+}
+
+.new-user-container{
+  width: 40%;
+  margin: auto;
+  margin-top: 4%;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.form-label{
+  width:100%;
+  margin-top: 4%;
+  font-family: 'Raleway Dots', cursive;
+  font-weight: 600;
+  font-size: x-large;
+  text-align:center;
+  margin: 5%;
+  padding: .25%;
+
+}
+
+.form-textfeild{
+  width:50%;
+  display: block;
+  margin-top: 1%;
+  font-family: 'Raleway Dots', cursive;
+  font-weight: 600;
+  font-size: large;
+  margin-bottom: 5%;
+  margin: auto;
+  margin-bottom: 5%;
+  padding: .5%;
+  
+
+}
+.new-user-submit{
+  background-color: rgba(0, 0, 0);
+  font-weight: 900;
+  margin: auto;
+  margin-top: 5%;
+  padding:.5% 8% .5% 8%;
+  font-family: 'Raleway Dots', cursive;
+  font-weight: 600;
+  font-size: medium;
+  text-decoration: none;
+  color:#fff;
+  border-radius: 7%;
+}
+.submit:visited{
+  color:#fff;
+  text-decoration: none;
+}
+
+/*  CARDS  */
+
+.cards-flexbox-container {
+  
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4rem;
+  display: flex;
+  /* flex-flow: row wrap; */
+  justify-content: space-between;
+  width: 70rem;
+  margin-bottom: 10rem;
+  border: 1px solid #000;
+  border-radius: 0.5%;
+  padding: 3rem 8rem 8rem 8rem;
+}
+.cards-flexbox {
+  font-family: 'Raleway Dots', cursive;
+  font-size: large;
+  /* border: 2px solid #000; */
+  border: 1px solid #000;
+  border-radius: 2%;
+  background-color: #fff;
+  width: 13rem;
+  height: 18rem;
+}
+
+.cards-flexbox:active {
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.03);
+  border-radius: 0rem;
+}
+
+.card-img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2rem;
+  border-radius: 0.5rem;
+}
+
+.card-selected {
+  font-family: 'Raleway Dots', cursive;
+  font-weight: 900;
+  font-size: larger;
+  color: #000;
+
+}
+
+.btn-container {
+  margin: auto;
+  text-align: center;
+}
+
+.round {
+  background-color: #fff;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 50%;
+  margin: 2rem 8.5rem 0rem 8.5rem;
+}
+
+#prev{
+  text-decoration: none;
+}
+#next{
+  text-decoration: none;
+}
+
+
+.submit-btn{
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  padding: .5rem 3rem;
+  font-family: 'Raleway Dots', cursive;
+  font-weight:900;
+  border-radius: 5%;
+  /* margin: auto; */
+  position: absolute;
+  left: 44.75%;
+
+}
+.submit{
+  color: #fff;
+  text-decoration: none;
+  margin: auto;
+}
+.submit-btn:visited{
+  color: #fff;
+  text-decoration: none;
+}
+
+.direction-symbol{
+  text-decoration: none;
+}
+
+a.previous.round {
+ 
+  margin-left: 30.33%;
+  background-color: rgba(0, 0, 0, 0.05);
+  color: #000;
+}
+
+a.next.round {
+  margin-left: 33.33%;
+  background-color: rgba(0, 0, 0, 0.05);
+  color: #000;
+}
+.results-container{
+  margin: auto;
+  margin-top: 5rem;
+ 
+  display: flex;
+  flex-wrap: wrap;
+  gap:3rem;
+  /* justify-content: center; */
+
+  width: 85%;
+  border:1px solid rgba(0,0,0, .25);;
+  padding-bottom: 20%;
+  
+ 
+}
+.results-child{
+  margin: 2rem -1.5rem -1rem 1rem;
+  border: 1px solid rgba(0,0,0, .25); 
+  width:24rem;
+  height: 36rem;
+  background-color: #fff;
+  padding: .25rem;
+}
+.results-pics{
+  height:100%;
+  width: 100%;
+}
+
+/* a:hover {
+  background-color: rgb(255, 255, 255);
+  
+} */
+
+
